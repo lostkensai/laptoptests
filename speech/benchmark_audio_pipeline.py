@@ -10,8 +10,7 @@ from pathlib import Path
 AUDIO_FILES = [
     "speech/samples/audio1.wav",
     "speech/samples/audio2.wav",
-    "speech/samples/audio3.wav",
-    "speech/samples/audio4.wav",
+    "speech/samples/audio3.wav"
 ]
 
 RESULTS_FILE = "results_speech.csv"
