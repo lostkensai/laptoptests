@@ -1,0 +1,4 @@
+# Windows batch files and the end-user readme must keep CRLF line endings,
+# otherwise "goto" labels in the .bat files can misbehave.
+*.bat text eol=crlf
+READ?ME?FIRST.txt text eol=crlf

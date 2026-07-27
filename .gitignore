@@ -1,0 +1,12 @@
+# Python
+__pycache__/
+*.pyc
+
+# Environments created by Setup.bat / Build EXE.bat
+.venv/
+.venv-build/
+
+# PyInstaller build output (rebuild with "Build EXE.bat" instead of committing)
+build/
+dist/
+*.spec

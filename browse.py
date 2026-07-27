@@ -1,3 +1,11 @@
+import os
+import sys
+
+# When packaged as an exe (PyInstaller), Chromium is bundled inside the app
+# folder instead of the user's browser cache — point Playwright at it.
+if getattr(sys, "frozen", False):
+    os.environ["PLAYWRIGHT_BROWSERS_PATH"] = "0"
+
 from playwright.sync_api import sync_playwright
 import time
 

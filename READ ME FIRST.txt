@@ -1,0 +1,57 @@
+==============================================
+ LAPTOP BATTERY TEST - PLEASE READ ME FIRST
+==============================================
+
+This folder contains a test that makes the laptop browse websites
+on its own, so we can see how long the battery lasts.
+
+You only need to do THREE things:
+
+
+STEP 1 - UNZIP THE FOLDER (if you received it as a zip file)
+------------------------------------------------------------
+Right-click the downloaded zip file and choose "Extract All...",
+then click "Extract". Use the new (unzipped) folder from now on.
+The test will NOT work from inside the zip file itself.
+
+
+STEP 2 - RUN THE SETUP (only once, ever)
+------------------------------------------------------------
+1. Open the unzipped folder.
+2. Double-click the file called:  Setup.bat
+3. A black window will appear and do everything automatically.
+   This can take several minutes - please be patient and make
+   sure the laptop is connected to the internet.
+4. When it says "ALL DONE", you can close the window.
+
+Two things Windows might show you - both are normal:
+
+  * A blue box saying "Windows protected your PC".
+    Click "More info", then click "Run anyway".
+
+  * A box asking "Do you want to allow this app to make
+    changes to your device?".  Click "Yes".
+
+
+STEP 3 - RUNNING THE TEST (every time after that)
+------------------------------------------------------------
+On your Desktop you will now find a shortcut called:
+
+        Laptop Battery Test
+
+Double-click it whenever you want to run the test.
+A black window and a browser window will open, and the browser
+will scroll through websites by itself. That means it is working.
+Just leave it alone and let it run.
+
+TO STOP THE TEST: close the black window.
+(If the browser window is still open after that, close it too.)
+
+That's it! You never need Setup.bat again on this computer.
+
+
+IF SOMETHING GOES WRONG
+------------------------------------------------------------
+The black window will explain the problem in plain English.
+Most problems are fixed by checking the internet connection and
+double-clicking Setup.bat again - it is always safe to re-run.
