@@ -54,7 +54,7 @@ if not exist ".venv-build\Scripts\python.exe" (
 set "VPY=%CD%\.venv-build\Scripts\python.exe"
 
 "%VPY%" -m pip install --upgrade pip --quiet --disable-pip-version-check
-"%VPY%" -m pip install playwright pyinstaller --disable-pip-version-check
+"%VPY%" -m pip install -r requirements.txt pyinstaller --disable-pip-version-check
 if errorlevel 1 goto :BuildFailed
 
 rem ---- Step 3: put Chromium inside the package so it gets bundled ----------

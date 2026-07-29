@@ -39,7 +39,9 @@ computer** (PyInstaller cannot cross-compile from Mac/Linux).
 1. Creates a dedicated build environment `.venv-build` (kept separate from
    the `.venv` that `Setup.bat` makes, because step 3 installs the browser
    in a non-standard place).
-2. Installs `playwright` and `pyinstaller` into it.
+2. Installs the project requirements (`requirements.txt`) and `pyinstaller`
+   into it — so new dependencies added to the repo are picked up by the
+   next build automatically.
 3. Sets `PLAYWRIGHT_BROWSERS_PATH=0` and runs `playwright install chromium`.
    That environment variable makes Playwright download Chromium **inside its
    own package folder** instead of the user's cache — which is what lets
